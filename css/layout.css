@@ -1,0 +1,208 @@
+/* -------------colores--------
+ 
+ blanco div main #f6f6f6
+ gris div main #ececec
+ bg #a5a299
+
+ ------------textos------------
+ 
+ ver /ver mas/sub info #a7cb22
+ blanco #fff
+ texto base #595750 
+
+-------------------------------------------------------------- */
+/* Default font settings. 
+   The font-size percentage is of 16px. (0.75 * 16px = 12px) */
+
+html { font-size:100.01%; }
+body { 
+  font-size: 75%;
+  color: #797970; 
+  background: #ececec url(img/head.png) repeat-x;
+  font-family: "Helvetica Neue", "Helvetica", "Lucida Grande", Arial, sans-serif;
+}
+
+/* Headings
+-------------------------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6 { font-weight: normal; color: #797970; text-shadow: #fff  0px 1px 0px; }
+
+h1 { font-size: 3em; line-height: 1; margin-bottom: 0.5em; }
+h2 { font-size: 2em; margin-bottom: 0.75em; }
+
+h3 { font-size: 1.8em; line-height: 1; margin-bottom: 5px; padding-bottom: 5px; margin-left: 2px;}
+
+h4 { font-size: 1.5em; line-height: 1; color: #7eae26;}
+h5 { font-size: 1.2em;  }
+h6 { font-size: 1.5em; line-height: 1; margin-bottom: 5px; padding-bottom: 5px; margin-left: 2px; }
+
+h1 img, h2 img, h3 img, 
+h4 img, h5 img, h6 img {
+  margin: 0;
+}
+
+
+/* Text elements
+-------------------------------------------------------------- */
+
+p           { font-family: Georgia, "Times New Roman", Times, serif; font-size: 1.2em; margin: 0 0 5px; 
+color: #5b5b54; }
+p img.left  { float: left; margin: 1.5em 1.5em 1.5em 0; padding: 0; }
+p img.right { float: right; margin: 1.5em 0 1.5em 1.5em; }
+
+a:focus, 
+a:hover     { text-decoration: underline; }
+a           { color: #dd362e; text-decoration: none; }
+
+blockquote  { margin: 1.5em; color: #666; font-style: italic; }
+strong      { font-weight: bold; }
+em,dfn      { font-style: italic; }
+dfn         { font-weight: bold; }
+sup, sub    { line-height: 0; }
+
+abbr, 
+acronym     { border-bottom: 1px dotted #666; }
+address     { margin: 0 0 1.5em; font-style: italic; }
+del         { color:#666; }
+
+pre 		{ margin: 1.5em 0; white-space: pre; }
+pre,code,tt { font: 1em 'andale mono', 'lucida console', monospace; line-height: 1.5; }
+
+
+/* Mix elements
+-------------------------------------------------------------- */
+
+.right { float: right; }
+.left { float: left; }
+ 
+.round-left {
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+}
+
+.round-right {
+	-moz-border-radius-topright:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+}
+
+.round-right-5 {
+ -moz-border-radius:5px;
+ -webkit-border-radius:5px;
+}
+
+.round-right-3 {
+ -moz-border-radius:3px;
+ -webkit-border-radius:3px;
+}
+
+.avatar-1 {
+ border: 1px solid #d3d2d2
+}
+
+/* layout 
+-------------------------------------------------------------- */
+
+/* head top */
+
+#head-top {
+ margin-top: 10px;
+}
+
+#perfil-ol {
+ margin-top: 4px;
+}
+
+#perfil-ol li {
+ float: left;
+ margin-left: 8px;
+}
+
+#perfil-ol li a {
+ color: #fff;
+ text-shadow: #2d6600  -1px 1px 0px;
+ font-size: 1.2em;
+ font-weight: bold;
+}
+
+#perfil-ol li a:hover {
+text-decoration: none;
+color: #295b00;
+text-shadow: #6dae40 0px 1px 0px;
+}
+
+/* head bottom */
+
+#head-bottom {
+ 
+}
+
+#tabs-sec li {
+ float: left;
+ margin-right: 12px;
+ margin-top: 10px;
+}
+
+#tabs-sec li a {
+ font-size: 1.7em;
+ font-weight: bold;
+ text-decoration: none;
+ color: #448615;
+ text-shadow: #88ca5a  0px 1px 0px;
+}
+
+#tabs-sec li a:hover, #tabs-sec li.tabs-active a {
+ color: #fff;
+ text-shadow: #448615  -1px 1px 0px; 
+}
+
+.tabs-active {
+ background: url(img/active-head.png) no-repeat bottom;
+ padding-bottom: 5px;
+}
+
+#search {
+ margin-top: 10px;
+}
+
+#search li {
+ float: left;
+}
+
+.input-search {
+ display: block;
+ width: 214px;
+ height: 31px;
+ border: 0 none;
+ padding: 5px 0px 0px 20px;
+ background: url(img/search-l.png) no-repeat;
+ font-size: 15px;
+ line-height: 31px;
+ margin: 0;
+ color: #696969;
+}
+
+.btn-search {
+ background: url(img/search-r.png) 0 0;
+ margin-left: -20px;
+ height: 31px;
+ width: 32px;
+ display: block;
+ border: 0 none;
+}
+
+.btn-search:hover {
+ background: url(img/search-r.png) 0 -35px;
+}
+
+/* left */
+
+#left {
+ margin-top: 40px;
+ background-color: #fff;
+ border: 1px solid #dbdada;
+ min-height: 500px;
+}
