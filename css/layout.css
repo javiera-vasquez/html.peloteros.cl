@@ -103,6 +103,67 @@ pre,code,tt { font: 1em 'andale mono', 'lucida console', monospace; line-height:
  border: 1px solid #d3d2d2
 }
 
+/* buttons + msj (s)
+-------------------------------------------------------------- */
+
+.error-box, .check-box {
+ margin: 20px;
+ padding: 10px;
+}
+
+.error-box p, .check-box p {
+ font-size: 1em;
+ line-height: 1.2;
+ font-family: "Helvetica Neue", "Helvetica", "Lucida Grande", Arial, sans-serif;
+}
+
+.check-box  {
+ background: #cfeabc;
+ border: 3px solid #6dae40;
+}
+
+.check-box p {
+ color: #448615;
+}
+
+/* buttons */
+
+a.button {
+text-decoration: none;
+}
+
+.button{
+background: #222 url(img/36px-blended.png) repeat-x;
+display: inline-block;
+
+padding: 6px 11px 7px;
+
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+line-height: 1;
+
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+
+text-shadow: 0 -1px 1px #636363;
+border: 1px solid #636363;
+
+
+position: relative;
+cursor: pointer;
+margin-top: 8px;
+margin-right: 12px;
+}
+
+.button {
+...
+text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+border: 1px solid rgba(0,0,0,0.1);
+...
+}
+
+
 /* layout 
 -------------------------------------------------------------- */
 
@@ -307,7 +368,7 @@ color: #fff;
 }
 
 .head-box-action {
- background-color: #6dae40;
+ background-color: #80ca4c;
  height: 25px;
  padding: 0 7px;
  color: #fff;
@@ -317,7 +378,7 @@ color: #fff;
 
 .head-box-action:hover {
  text-decoration: none;
- background-color: #448615;
+ background-color: #6dae40;
 }
 
 .box-info table {
