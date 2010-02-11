@@ -25,14 +25,14 @@ body {
 /* Headings
 -------------------------------------------------------------- */
 
-h1,h2,h3,h4,h5,h6 { font-weight: normal; color: #797970; text-shadow: #fff  0px 1px 0px; }
+h1,h2,h3,h4,h5,h6 { font-weight: normal; color: #797970;}
 
 h1 { font-size: 3em; line-height: 1; margin-bottom: 0.5em; }
 h2 { font-size: 2em; margin-bottom: 0.75em; }
 
-h3 { font-size: 1.8em; line-height: 1; margin-bottom: 5px; padding-bottom: 5px; margin-left: 2px;}
+h3 { font-size: 1.8em; line-height: 1;}
 
-h4 { font-size: 1.5em; line-height: 1; color: #7eae26;}
+h4 { font-size: 1.3em; line-height: 1.6; color: #898989; margin-left: 5px;}
 h5 { font-size: 1.2em;  }
 h6 { font-size: 1.5em; line-height: 1; margin-bottom: 5px; padding-bottom: 5px; margin-left: 2px; }
 
@@ -46,7 +46,7 @@ h4 img, h5 img, h6 img {
 -------------------------------------------------------------- */
 
 p           { font-family: Georgia, "Times New Roman", Times, serif; font-size: 1.2em; margin: 0 0 5px; 
-color: #5b5b54; }
+color: #6b6b64; }
 p img.left  { float: left; margin: 1.5em 1.5em 1.5em 0; padding: 0; }
 p img.right { float: right; margin: 1.5em 0 1.5em 1.5em; }
 
@@ -122,7 +122,7 @@ pre,code,tt { font: 1em 'andale mono', 'lucida console', monospace; line-height:
 }
 
 #perfil-ol li a {
- color: #fff;
+ color: #ebebeb;
  text-shadow: #2d6600  -1px 1px 0px;
  font-size: 1.2em;
  font-weight: bold;
@@ -130,15 +130,10 @@ pre,code,tt { font: 1em 'andale mono', 'lucida console', monospace; line-height:
 
 #perfil-ol li a:hover {
 text-decoration: none;
-color: #295b00;
-text-shadow: #6dae40 0px 1px 0px;
+color: #fff;
 }
 
 /* head bottom */
-
-#head-bottom {
- 
-}
 
 #tabs-sec li {
  float: left;
@@ -192,6 +187,7 @@ text-shadow: #6dae40 0px 1px 0px;
  width: 32px;
  display: block;
  border: 0 none;
+ cursor: pointer;
 }
 
 .btn-search:hover {
@@ -201,8 +197,255 @@ text-shadow: #6dae40 0px 1px 0px;
 /* left */
 
 #left {
- margin-top: 40px;
  background-color: #fff;
- border: 1px solid #dbdada;
- min-height: 500px;
+ border-left: 1px solid #dbdada;
+ border-right: 1px solid #dbdada;
+ min-height: 900px;
 }
+
+.titles-sec {
+ margin: 20px 10px 5px 10px;
+}
+
+/* partidos 
+-------------------------------------------------------------- */
+
+/* head partido */
+
+.partido-head {
+ height: 77px;
+ background: url(img/partido.png) repeat-x;
+}
+
+.partido-state {
+ margin-top: 8px;
+ width: 74px;
+ height: 61px;
+ background: url(img/p-state.png) no-repeat;
+}
+
+.partido-info {
+ width: 525px;
+ margin: 8px 10px 0 13px;
+}
+
+.info-state li.info-fecha, 
+.info-state li.info-hora, 
+.info-state li.info-short {
+ text-align: center;
+ color: #fff;
+ font-weight: bold;
+ line-height: 1.1;
+ text-shadow: #3b8202  0px -1px 0px;
+}
+
+.info-state li.info-fecha {
+ padding-top: 5px;
+ font-size: 1.5em;
+ text-shadow: #3b8202  0px -1px 0px;
+}
+
+.info-state li.info-fecha span {
+ color: #448615;
+ text-shadow: #7abb4c  0px 1px 0px;
+}
+
+.info-state li.info-hora {
+ font-size: 1.2em;
+}
+
+.info-state li.info-short {
+ padding-top: 6px;
+ font-size: 1em;
+ font-weight: normal;
+ text-shadow: #3b8202  -1px 1px 0px;
+}
+
+.info-state li.info-equipo {
+ line-height: 1.2;
+ font-size: 1.5em;
+ padding-top: 1px;
+ font-weight: bold;
+}
+
+.info-state li.info-equipo a{
+ color: #6dae40;
+ text-shadow: #fff 0px 1px 0px;
+}
+
+.info-state li.info-equipo a:hover{
+ color: #56922d;
+ text-decoration: none;
+}
+
+.info-state li.info-lugar {
+ color: #989898;
+ text-shadow: #fff 0px 1px 0px;
+ font-size: 1.2em;
+ line-height: 1.2;
+ font-weight: bold;
+}
+
+.info-state li.info-faltante {
+ padding-top: 5px;
+ font-size: 1em;
+ font-weight: normal;
+}
+
+/* bottom partido */
+
+.box-info {
+ float: left;
+ margin: 20px 0 0 22px;
+ width: 280px;
+ min-height: 85px;
+}
+
+.head-box-info {
+ background-color: #ececec;
+ height: 25px;
+}
+
+.head-box-action {
+ background-color: #6dae40;
+ height: 25px;
+ padding: 0 7px;
+ color: #fff;
+ font-size: 1.1em;
+ line-height: 1.8;
+}
+
+.head-box-action:hover {
+ text-decoration: none;
+ background-color: #448615;
+}
+
+.box-info table {
+ margin-top: 5px;
+}
+
+.title-info {
+ width: 100px;
+}
+
+.title-opcion {
+ color: #6dae40;
+}
+
+.title-opcion button {
+ border: none;
+ padding-top: 5px;
+ width: 12px;
+ height: 12px;
+ background: url(img/sumar.png) no-repeat 0 0;
+}
+
+.title-opcion button:hover {
+ background: url(img/sumar.png) no-repeat 0 -12px;
+}
+
+.box-info span {
+ color: #6dae40;
+ font-size: 1.1em;
+ line-height: 2.3;
+}
+
+.option-list-especial li {
+ float: left;
+ margin: 0 6px 1px 0;
+}
+
+.option-list-especial li:hover {
+ opacity: 0.8;
+}
+
+/* notificaciones 
+-------------------------------------------------------------- */
+
+/* tabs */
+
+.tabs-sec li {
+ float: left;
+ margin-right: 5px;
+}
+
+.tabs-sec li a {
+ font-size: 1.2em;
+ color: #919189;
+ text-decoration: none;
+ padding: 3px 7px;
+ -moz-border-radius:3px;
+ -webkit-border-radius:3px;
+}
+
+.tabs-sec li a:hover {
+ color: #fff;
+ background-color: #80ca4c;
+}
+
+.tabs-sec li a.tabs-sec-active {
+ background-color: #6dae40;
+ color: #fff;
+}
+
+/* info update + invitaciones
+-------------------------------------------------------------- */
+
+#notificaciones {
+ margin: 20px;
+}
+
+.info-update {
+ margin: 10px 0;
+ padding: 5px 0px 3px 7px;
+ background: #f3f3f3;
+}
+
+.invitacion-sprite-update {
+ padding-left: 32px;
+ background: url(img/sprite-icow.png) no-repeat -0px -53px ;
+}
+
+.partido-sprite-update {
+ padding-left: 32px;
+ background: url(img/sprite-icow.png) no-repeat -0px -98px ;
+}
+
+.invitacion {
+ margin-top: 13px;
+ border-bottom: 1px dashed #ececec;
+ padding-bottom: 13px;
+}
+
+.comentario {
+ margin-top: 15px;
+ border-bottom: 1px dashed #ececec;
+ padding-bottom: 5px;
+}
+
+.pregunta-notificacion {
+ color: #7eae26;
+}
+
+.admin-equipo {
+ color: #dd362e;
+}
+
+.player-equipo {
+ color: #7eae26;
+}
+
+.info-stat {
+ line-height: 0; 
+}
+
+.invitacion-sprite {
+ padding-left: 25px;
+ background: url(img/sprite-icow.png) no-repeat -0px -58px ;
+}
+
+.partido-sprite {
+ padding-left: 25px;
+ background: url(img/sprite-icow.png) no-repeat -0px -102px ;
+}
+

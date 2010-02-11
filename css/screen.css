@@ -40,7 +40,7 @@ li { list-style: none; }
 
 /* A container should group all your columns. */
 .container {
-  width: 950px;
+  width: 920px;
   margin: 0 auto;
 }
 
