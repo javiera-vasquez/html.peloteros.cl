@@ -4,8 +4,20 @@
 	<head>
 		<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
 		<title>Peloteros - zapatillas no incluidas</title>
-		<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen, projection" />  
+		<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen, projection" />
    	 	<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen, projection" />
+   	 	<script src="js/jquery-1.4.1.min.js" type="text/javascript"></script>
+   	 	<script src="js/jquery-ui-1.7.2.custom.min.js" type="text/javascript"></script>
+   	 	<script type="text/javascript">
+	        $(document).ready(function() {
+	            $('#partidos').accordion({
+	                autoHeight: false,
+	                change: function(event, ui) {
+	                	ui.newHeader.blur();
+	                }
+	            });
+	        });
+   	 	</script>
 	</head>
 	
 	<body>
@@ -144,11 +156,111 @@
 								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
 								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
 							</ul>
+							<br />
+						</div> <!-- end box info -->
+					
+					<br class="clear" />
+					<br />
+					</div><!-- end partido bottom -->
+					
+					<div class="partido-head">
+						<div class="partido-state left">
+							
+							<ol class="info-state">
+								<li class="info-fecha"><span>Dic</span> 27</li>
+								<li class="info-hora">19:00hrs</li>
+								<li class="info-short">Listo</li>
+							</ol>
+						
+						</div>
+						<div class="partido-info left">
+							
+							<ol class="info-state">
+								<li class="info-name"><a href="#">Come capa v/s La come fuck</a></li>
+								<li class="info-lugar">Sportime la Reina, las tranqueras #1234</li>
+								<li class="info-faltante">Nomina completa</li>
+							</ol>
+						
+						</div> 	
+						<br class="clear" />
+					</div> <!-- end partidos modulos -->
+					
+					<div class="partido-bottom">
+					
+						<div class="box-info">
+							<div class="head-box-info">
+								<h4 class="left">Opciones</h4>
+								<a href="#" class="right head-box-action">Editar partido</a>
+							</div>
+							<table>
+								<tr>
+									<td class="title-info">Tipo</td>
+									<td class="title-opcion">Furbol 2x7</td>
+								</tr>
+								<tr>
+									<td class="title-info">Camiseta</td>
+									<td class="title-opcion">Jurcia</td>
+								</tr>
+								<tr>
+									<td class="title-info">Pelotas</td>
+									<td class="title-opcion">3 <button></button> </td>
+								</tr>
+							</table>
+						</div> <!-- end box info -->
+						
+						<div class="box-info">
+							<div class="head-box-info">
+								<h4 class="left">Galletas</h4>
+								<a href="#" class="right head-box-action">Agregar galleta</a>
+							</div>
+							<span>3 Galletas confirmados</span>
+						</div> <!-- end box info -->
+					
+						<div class="box-info">
+							<div class="head-box-info">
+								<h4 class="left">Come caca</h4>
+							</div>
+							
+							<span>3 Jugadores por confirmar</span>
+							<ul class="option-list-especial">
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+							</ul>
+							
+						</div> <!-- end box info -->
+						
+						<div class="box-info">
+							<div class="head-box-info">
+								<h4 class="left">La come Fuck</h4>
+							</div>
+							
+							<span>3 Jugadores por confirmar</span>
+							<ul class="option-list-especial">
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+							</ul>
 							
 						</div> <!-- end box info -->
 					
 					<br class="clear" />
-					</div> <br /> <!-- end partido bottom -->
+					<br />
+					</div><!-- end partido bottom -->
 					
 					<div class="partido-head">
 						<div class="partido-state left">
@@ -172,27 +284,82 @@
 						<br class="clear" />
 					</div> <!-- end partidos modulos -->
 					
-					<div class="partido-head">
-						<div class="partido-state left">
-							
-							<ol class="info-state">
-								<li class="info-fecha"><span>Dic</span> 27</li>
-								<li class="info-hora">19:00hrs</li>
-								<li class="info-short">Listo</li>
-							</ol>
+					<div class="partido-bottom">
+					
+						<div class="box-info">
+							<div class="head-box-info">
+								<h4 class="left">Opciones</h4>
+								<a href="#" class="right head-box-action">Editar partido</a>
+							</div>
+							<table>
+								<tr>
+									<td class="title-info">Tipo</td>
+									<td class="title-opcion">Furbol 2x7</td>
+								</tr>
+								<tr>
+									<td class="title-info">Camiseta</td>
+									<td class="title-opcion">Jurcia</td>
+								</tr>
+								<tr>
+									<td class="title-info">Pelotas</td>
+									<td class="title-opcion">3 <button></button> </td>
+								</tr>
+							</table>
+						</div> <!-- end box info -->
 						
-						</div>
-						<div class="partido-info left">
+						<div class="box-info">
+							<div class="head-box-info">
+								<h4 class="left">Galletas</h4>
+								<a href="#" class="right head-box-action">Agregar galleta</a>
+							</div>
+							<span>3 Galletas confirmados</span>
+						</div> <!-- end box info -->
+					
+						<div class="box-info">
+							<div class="head-box-info">
+								<h4 class="left">Come caca</h4>
+							</div>
 							
-							<ol class="info-state">
-								<li class="info-name"><a href="#">Come capa v/s La come fuck</a></li>
-								<li class="info-lugar">Sportime la Reina, las tranqueras #1234</li>
-								<li class="info-faltante">Nomina completa</li>
-							</ol>
+							<span>3 Jugadores por confirmar</span>
+							<ul class="option-list-especial">
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+							</ul>
+							
+						</div> <!-- end box info -->
 						
-						</div> 	
-						<br class="clear" />
-					</div> <!-- end partidos modulos -->
+						<div class="box-info">
+							<div class="head-box-info">
+								<h4 class="left">La come Fuck</h4>
+							</div>
+							
+							<span>3 Jugadores por confirmar</span>
+							<ul class="option-list-especial">
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+								<li><img class="round-right-3" alt="Avatar" src="./css/img/avatar/25.png" /></li>
+							</ul>
+							
+						</div> <!-- end box info -->
+					
+					<br class="clear" />
+					<br />
+					</div><!-- end partido bottom -->
 					
 				</div> <!-- !end partidos -->
 				
