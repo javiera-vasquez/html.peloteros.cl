@@ -482,17 +482,17 @@ color: #fff;
 .info-update {
  margin: 10px 0;
  padding: 5px 0px 3px 7px;
- background: #f3f3f3;
+ background: #ececec;
 }
 
 .invitacion-sprite-update {
  padding-left: 32px;
- background: url(img/sprite-icow.png) no-repeat -0px -53px ;
+ background: url(img/sprite-icow.png) no-repeat -0px -0px ;
 }
 
 .partido-sprite-update {
  padding-left: 32px;
- background: url(img/sprite-icow.png) no-repeat -0px -98px ;
+ background: url(img/sprite-icow.png) no-repeat -0px -20px ;
 }
 
 .invitacion {
@@ -525,26 +525,24 @@ color: #fff;
 
 .invitacion-sprite {
  padding-left: 25px;
- background: url(img/sprite-icow.png) no-repeat -0px -58px ;
+ background: url(img/sprite-icow.png) no-repeat -2px -2px ;
 }
 
 .partido-sprite {
  padding-left: 25px;
- background: url(img/sprite-icow.png) no-repeat -0px -102px ;
+ background: url(img/sprite-icow.png) no-repeat -2px -23px ;
 }
 
 
 /* right + modulos 
 -------------------------------------------------------------- */
 
+
+
 /* make team + head right */
 
 .make-team, .head-right {
  margin: 25px 0 0 15px;
-}
-
-.make-team a{
- background: url(img(make-team.png) no-repeat;
 }
 
 .make-team a:hover {
@@ -562,30 +560,30 @@ color: #fff;
  margin: 15px 0 0 20px;
 }
 
-.invita-fast, .partido-fast, .jugadores-fast, .comentarios-fast, .prox-fast {
+.invita-fast, .partido-fast, .jugadores-fast, .comentarios-fast, .desafio-fast {
  font-size: 1.1em;
  text-shadow: #fff  0px 1px 0px;
- padding-left: 30px;
+ padding-left: 32px;
 }
 
 .invita-fast {
- background: url(img/sprite-icow.png) no-repeat -0px -54px;
+ background: url(img/sprite-icow.png) no-repeat -0px -0px;
 }
 
 .partido-fast {
- background: url(img/sprite-icow.png) no-repeat -0px -98px;
+ background: url(img/sprite-icow.png) no-repeat -0px -20px;
 }
 
 .jugadores-fast {
- background: url(img/sprite-icow.png) no-repeat -0px -161px;
+ background: url(img/sprite-icow.png) no-repeat -0px -100px;
 }
 
 .comentarios-fast {
- background: url(img/sprite-icow.png) no-repeat -0px -141px;
+ background: url(img/sprite-icow.png) no-repeat -0px -60px;
 }
 
-.prox-fast {
- background: url(img/sprite-icow.png) no-repeat 2px -6px;
+.desafio-fast {
+ background: url(img/sprite-icow.png) no-repeat -0px -80px;
 }
 
 /* equipos */
@@ -613,8 +611,9 @@ color: #fff;
 .msg-list-right {
  width: 185px;
  padding-left: 23px;
- padding-bottom: 5px;
- background: url(img/sprite-icow.png) no-repeat -3px -141px;
+ padding-top: 3px;
+ padding-bottom: 3px;
+ background: url(img/sprite-icow.png) no-repeat -0px -40px;
  font-size: 1.1em;
  line-height: 1;
 }
@@ -623,7 +622,7 @@ color: #fff;
  width: 185px;
 }
 
-.nombre-list-right a{
+.nombre-list-right a {
  font-size: 1.4em;
  font-weight: bold;
  color: #6dae40;
@@ -631,7 +630,7 @@ color: #fff;
  line-height: 1.3;
 }
 
-.nombre-list-right a:hover{
+.nombre-list-right a:hover {
  color: #448615;
  text-decoration: none;
 }
