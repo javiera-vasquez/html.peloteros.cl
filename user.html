@@ -6,7 +6,7 @@
 		<title>Peloteros - zapatillas no incluidas</title>
 		<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen, projection" />
    	 	<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen, projection" />
-   	 	<link rel="icon" type="image/png" href="css/img/favicon.png" />	
+   	 	<link rel="icon" type="image/gif" href="css/img/favicon.gif" />	
    	 	<script src="js/jquery-1.4.1.min.js" type="text/javascript"></script>
    	 	<script src="js/jquery-ui-1.7.2.custom.min.js" type="text/javascript"></script>
    	 	<script type="text/javascript">
@@ -379,51 +379,88 @@
 				
 				<div id="notificaciones">
 					
-					<div class="invitacion">
-						
-						<div class="span-2">
-							<img class=" round-right-5" alt="none" title="Nombre Equipo" src="./css/img/avatar/65.png" />
-						</div>
-						<div class="span-13 last">
+					<ol id="notificaciones-content">
+						<li class="partidos">
 							
-							<span class="partido-sprite">hace 2 horas</span><br />
-							<p><a href="#">Nombre equipo</a> organizo un nuevo partido el <em>14 de julio</em> a jugarse en <em>Sportime la reina</em>.</p>
-							<span class="pregunta-notificacion">ÀQuieres participar?</span><br />
-							
-							<a href="#" class="button verde ">unirse</a><a href="#" class="button gris ">rechasar</a>
+							<span class="thumb">
+								<img class=" round-right-5" alt="none" title="Nombre Equipo" src="./css/img/avatar/40.png" />
+							</span> <!-- end thumb -->
+							<span class="index-content">
+								<strong><a href="#">Nombre equipo</a></strong>
+								<span class="content">
+									organizo un nuevo partido el <strong>14 de julio</strong> a jugarse en Sportime la reina.</span><br />
+								<span class="pregunta">¿Quieres participar?</span> <br />
+								<span class="check">
+									<a href="#" class="button verde ">unirse</a><a href="#" class="button gris ">rechasar</a>	
+								</span>
+								<span class="time">hace 2 horas</span> <br />
+							</span><br class="clear"/>  <!-- end index content -->
 						
-						</div> <!-- end info- -->
-						<div class="clear"></div>
-					</div> <!-- !end cuerpo-notificacion -->
-					
-					<div class="invitacion">
+						</li> <!-- end partidos -->
+						<li class="invitaciones">
+		
+							<span class="thumb">
+								<img class=" round-right-5" alt="none" title="Nombre Equipo" src="./css/img/avatar/40.png" />
+							</span> <!-- end thumb -->
+							<span class="index-content">
+								<strong><a href="#">Nombre equipo</a></strong>
+								<span class="content">
+									te invita a que seas uno mas de sus jugadores.</span><br />
+								<span class="pregunta">¿Quieres unirte?</span> <br />
+								<span class="check">
+									<a href="#" class="button verde ">unirse</a><a href="#" class="button gris ">rechasar</a>	
+								</span>
+								<span class="time">hace 2 horas</span> <br />
+							</span><br class="clear"/>  <!-- end index content -->
+
+						</li> <!-- end invitacion -->
+						<li class="desafios">
 						
-						<div class="span-2">
-							<img class=" round-right-5" alt="none" title="Nombre Equipo" src="./css/img/avatar/65.png" />
-						</div>
-						<div class="span-13 last">
-							
-							<span class="invitacion-sprite">hace 2 horas</span><br />
-							<p><a href="#">Nombre equipo</a> te invita a que seas uno mas de sus jugadores.</p>
-							<span class="pregunta-notificacion">ÀQuieres unirte?</span><br />
-							
-							<a href="#" class="button verde ">unirse</a><a href="#" class="button gris ">rechasar</a>
+						<span class="thumb">
+								<img class=" round-right-5" alt="none" title="Nombre Equipo" src="./css/img/avatar/40.png" />
+							</span> <!-- end thumb -->
+							<span class="index-content">
+								<strong><a href="#">Quiero caca</a></strong>
+								<span class="content">
+									invito a <strong><a href="#">Come fuck</a></strong> para que se jueguen una pichanga con el compadre jony en la multicancha de la esquina este <strong>sabadors 15</strong> despues de las chelas</span><br />
+								<span class="pregunta">¿Quieres jugar?</span> <br />
+								<span class="check">
+									<a href="#" class="button verde ">unirse</a><a href="#" class="button gris ">rechasar</a>	
+								</span>
+								<span class="time">hace 2 horas</span> <br />
+							</span><br class="clear"/>  <!-- end index content -->
 						
-						</div> <!-- end info- -->
-						<div class="clear"></div>
-					</div> <!-- !end cuerpo-notificacion -->
-				
-				<div class="info-update round-right-3">
-					<p class="invitacion-sprite-update">Fuiste aceptado en <a href="#">Nombre equipo</a> como jugador.</p>
-				</div>
-				
-				<div class="info-update round-right-3">
-					<p class="invitacion-sprite-update">Fuiste eliminado de <a href="#">Nombre equipo</a> como jugador.</p>
-				</div>
-				
-				<div class="info-update round-right-3">
-					<p class="partido-sprite-update">El partido a jugarse el 15 de octubre con <a href="#">Nombre equipo</a> esta listo.</p>
-				</div>
+						</li> <!-- end desafio -->
+						<li class="jugadores">
+						
+						<span class="thumb">
+								<img class=" round-right-5" alt="none" title="Nombre Equipo" src="./css/img/avatar/40.png" />
+							</span> <!-- end thumb -->
+							<span class="index-content">
+								<strong><a href="#">Lucho Pato</a></strong>
+								<span class="content">
+									pidio una solicitud para unirse a <strong><a href="#">Come fuck</a></strong></span><br />
+								<span class="pregunta">¿deseas aceptarlo?</span> <br />
+								<span class="check">
+									<a href="#" class="button verde ">agregar</a><a href="#" class="button gris ">borrar</a>	
+								</span>
+								<span class="time">hace 2 horas</span> <br />
+							</span><br class="clear"/>  <!-- end index content -->
+						
+						</li> <!-- jugador -->
+						<li class="fast">
+							<span class="fast-invita">Fuiste aceptado en <strong><a href="#">Nombre equipo</a></strong> como jugador.</span>
+						</li> <!-- fast -->
+						<li class="fast">
+							<span class="fast-partido">tenis partido con <strong><a href="#">Nombre equipo</a></strong> la otra semana wea.</span>
+						</li> <!-- fast -->
+						<li class="fast">
+							<span class="fast-usuario">este pollo <strong><a href="#">Nombre equipo</a></strong> quiere jugar con ud</span>
+						</li> <!-- fast -->
+						<li class="fast">
+							<span class="fast-desafio">los rq de <strong><a href="#">quiero caca</a></strong> son entero pollos y te desafiaron.</span>
+						</li> <!-- fast -->
+					</ol>
 
 					
 				</div> <!-- !end notificaciones -->
@@ -431,8 +468,8 @@
 			</div> <!-- !end left -->	
 			<div id="right" class="span-7 last">
 			 
-			 	<div class="make-team">
-			 		<a href="#"><img alt="Crear equipo" src="./css/img/make-team.png" /></a>
+			 	<div class="r-option">
+			 		<a href="#" class="verde">Crear equipo</a>
 			 	</div>
 				
 				<div class="head-right round-right-3">
@@ -498,5 +535,4 @@
 			
 		</div> <!-- !end wrapper -->
 	</body>
-</html>
-
+</html>				

@@ -1,19 +1,3 @@
-/* -------------colores--------
- 
- blanco div main #f6f6f6
- gris div main #ececec
- bg #a5a299
-
- ------------textos------------
- 
- ver /ver mas/sub info #a7cb22
- blanco #fff
- texto base #595750 
-
--------------------------------------------------------------- */
-/* Default font settings. 
-   The font-size percentage is of 16px. (0.75 * 16px = 12px) */
-
 html { font-size:100.01%; }
 body { 
   font-size: 75%;
@@ -45,14 +29,13 @@ h4 img, h5 img, h6 img {
 /* Text elements
 -------------------------------------------------------------- */
 
-p           { font-family: Georgia, "Times New Roman", Times, serif; font-size: 1.2em; margin: 0 0 5px; 
-color: #6b6b64; }
+p           { font-size: 1.2em; line-height: 1; margin: 0 0 5px; color: #6b6b64; }
 p img.left  { float: left; margin: 1.5em 1.5em 1.5em 0; padding: 0; }
 p img.right { float: right; margin: 1.5em 0 1.5em 1.5em; }
 
 a:focus, 
 a:hover     { text-decoration: underline; }
-a           { color: #377fa8; text-decoration: none; }
+a           { color: #6dae40; text-decoration: none; }
 
 blockquote  { margin: 1.5em; color: #666; font-style: italic; }
 strong      { font-weight: bold; }
@@ -136,7 +119,7 @@ text-decoration: none;
 background: #222;
 display: inline-block;
 
-padding: 5px 11px 7px ;
+padding: 5px 10px 5px ;
 
 color: #fff;
 text-decoration: none;
@@ -152,7 +135,6 @@ border: 1px solid #636363;
 
 position: relative;
 cursor: pointer;
-margin-top: 8px;
 margin-right: 12px;
 }
 
@@ -165,7 +147,7 @@ border: 1px solid rgba(0,0,0,0.1);
 
 /* Colors ---------- */
 .verde.button {
-font-size: 13px;
+font-size: 12px;
 background-color: #80ca4c;
 color: #fff;
 text-shadow: #65b033  0px 1px 0px;
@@ -176,7 +158,7 @@ background-color: #6dae40;
 }
 
 .gris.button {
-font-size: 13px;
+font-size: 12px;
 background-color: #f6f6f6;
 color: #878680;
 text-shadow: #fff  0px 1px 0px;
@@ -220,12 +202,13 @@ color: #fff;
 
 #tabs-sec li {
  float: left;
- margin-right: 12px;
- margin-top: 10px;
+ margin-right: 20px;
+ margin-top: 12px;
+ padding-bottom: 7px;
 }
 
 #tabs-sec li a {
- font-size: 1.7em;
+ font-size: 1.5em;
  font-weight: bold;
  text-decoration: none;
  color: #448615;
@@ -239,7 +222,6 @@ color: #fff;
 
 .tabs-active {
  background: url(img/active-head.png) no-repeat bottom;
- padding-bottom: 5px;
 }
 
 #search {
@@ -457,7 +439,7 @@ color: #fff;
  font-size: 1.2em;
  color: #919189;
  text-decoration: none;
- padding: 3px 7px;
+ padding: 1px 5px;
  -moz-border-radius:3px;
  -webkit-border-radius:3px;
 }
@@ -479,74 +461,105 @@ color: #fff;
  margin: 20px;
 }
 
-.info-update {
- margin: 10px 0;
- padding: 5px 0px 3px 7px;
+/* notificaciones */
+
+.partidos, .invitaciones, .desafios, .jugadores, .comentarios  {
+ border-bottom: 1px dashed #ececec;
+ padding: 10px 0;
+}
+
+.partidos:hover, .invitaciones:hover, .desafios:hover, .jugadores:hover, .comentarios:hover  {
+ background: #f9f9f9;
+}
+
+.thumb{
+ display:block;
+ width:55px;
+ float: left;
+ margin-top: 4px;
+}
+
+.index-content {
+ display:block;
+ width: 535px;
+ float: left;
+ font-size: 1.1em;
+ line-height: 1.2;
+}
+
+.pregunta {
+ color: #6dae40;
+ font-size: 0.9em;
+ line-height: 2;
+}
+
+.time {
+ float: right;
+ padding-right: 10px;
+ font-size: 1em;
+ color: #fff;
+ line-height: 0;
+ padding-top: 20px;
+}
+
+.partidos:hover .time, .invitaciones:hover .time, .desafios:hover .time, .jugadores:hover .time, .comentarios:hover .time {
+ color: #6dae40;
+}
+
+/* fast */
+
+.fast {
+ -moz-border-radius:5px;
+ -webkit-border-radius:5px;
  background: #ececec;
+ padding: 5px 8px 8px 8px;
+ margin: 10px 0;
 }
 
-.invitacion-sprite-update {
+.fast-invita, .fast-partido, .fast-usuario, .fast-desafio  {
  padding-left: 32px;
- background: url(img/sprite-icow.png) no-repeat -0px -0px ;
+ padding-bottom: 1px;
+ padding-top: 1px;
 }
 
-.partido-sprite-update {
- padding-left: 32px;
- background: url(img/sprite-icow.png) no-repeat -0px -20px ;
-}
+.fast-invita {background: url(img/sprite-icow.png) no-repeat 0 0;}
+.fast-partido {background: url(img/sprite-icow.png) no-repeat 0 -20px;}
+.fast-usuario {background: url(img/sprite-icow.png) no-repeat 0 -100px;}
+.fast-desafio {background: url(img/sprite-icow.png) no-repeat 0 -80px;}
 
-.invitacion {
- margin-top: 13px;
- border-bottom: 1px dashed #ececec;
- padding-bottom: 13px;
-}
 
-.comentario {
- margin-top: 15px;
- border-bottom: 1px dashed #ececec;
- padding-bottom: 5px;
-}
 
-.pregunta-notificacion {
- color: #7eae26;
-}
-
-.admin-equipo {
- color: #dd362e;
-}
-
-.player-equipo {
- color: #7eae26;
-}
-
-.info-stat {
- line-height: 0; 
-}
-
-.invitacion-sprite {
- padding-left: 25px;
- background: url(img/sprite-icow.png) no-repeat -2px -2px ;
-}
-
-.partido-sprite {
- padding-left: 25px;
- background: url(img/sprite-icow.png) no-repeat -2px -23px ;
-}
-
+/* comentarios */
 
 /* right + modulos 
 -------------------------------------------------------------- */
 
-
-
 /* make team + head right */
 
-.make-team, .head-right {
+.r-option {
  margin: 25px 0 0 15px;
+ width: 255px;
 }
 
-.make-team a:hover {
- opacity: 0.9;
+.r-option a.verde {
+ background: #6dae40;
+ padding: 7px 82px;
+ -moz-border-radius:5px;
+ -webkit-border-radius:5px;
+ color: #fff;
+ font-size: 1.2em;
+ font-weight: bold;	
+ text-shadow: -1px 1px 0px #448615;
+ 
+}
+
+.r-option a.verde:hover {
+ background: #5fa032;
+ text-decoration: none;
+}
+
+.head-right {
+ margin: 25px 0 0 15px;
 }
 
 .head-right  {
