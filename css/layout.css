@@ -171,6 +171,17 @@ background-color: #eee;
 /* layout 
 -------------------------------------------------------------- */
 
+#equipo {
+ margin:20px;
+ background: #ececec;
+ padding: 10px;
+ height: 40px;
+}
+
+#equipo .equipos-list .equipo-loop .info-equipo .nombre-list-right {
+ width: 500px;
+}
+
 /* head top */
 
 #head-top {
@@ -270,7 +281,7 @@ color: #fff;
 }
 
 .titles-sec {
- margin: 20px 10px 5px 10px;
+ margin: 20px 10px 5px 20px;
 }
 
 /* partidos 
@@ -527,9 +538,61 @@ color: #fff;
 .fast-usuario {background: url(img/sprite-icow.png) no-repeat 0 -100px;}
 .fast-desafio {background: url(img/sprite-icow.png) no-repeat 0 -80px;}
 
+/* box comentarios */
+
+#box-comentario {
+ margin: 0 20px 0 20px;
+}
+
+#box-comentario textarea {
+ border: 3px solid #ececec;
+ width: 560px;
+ height: 95px;
+ padding: 10px;
+ color: #797970;
+}
+
+#box-comentario textarea:hover {
+ border: 3px solid #ddd;
+}
+
+.responder.button {
+font-size: 12px;
+margin-right: 4px;
+background-color: #ececec;
+color: #878680;
+text-shadow: #fff  0px 1px 0px;
+}
+
+#box-comentario .responder:hover {
+ background-color: #ddd;
+}
 
 
-/* comentarios */
+/* anteriores */
+
+#anteriores {
+ background: #f9f9f9;
+ border: 1px solid #ececec;
+ height: 30px;
+ margin: 20px;
+}
+
+#anteriores a {
+ color: #9f9e95;
+ text-shadow: #fff 0px 1px 0px;
+ background: #ececec;
+ font-size: 1.3em;
+ line-height: 1.8;
+ margin-left: 1px;	
+ padding: 4px 12px 5px 12px;
+}
+
+#anteriores a:hover {
+ color: #797970;
+ text-decoration: none;
+ background: #e2e2e2;
+}
 
 /* right + modulos 
 -------------------------------------------------------------- */
@@ -538,24 +601,49 @@ color: #fff;
 
 .r-option {
  margin: 25px 0 0 15px;
- width: 255px;
 }
 
-.r-option a.verde {
- background: #6dae40;
- padding: 7px 82px;
+.r-option a.make-team, .r-option a.make-macht, .r-option a.make-edit, .r-option a.make-add {
  -moz-border-radius:5px;
  -webkit-border-radius:5px;
  color: #fff;
  font-size: 1.2em;
  font-weight: bold;	
- text-shadow: -1px 1px 0px #448615;
- 
 }
 
-.r-option a.verde:hover {
+.r-option a.make-team  {
+ background: #6dae40;
+ padding: 7px 82px;
+ text-shadow: -1px 1px 0px #448615;
+}
+
+.r-option a.make-macht {
+ background: #6dae40;
+ padding: 7px 79px;
+ text-shadow: -1px 1px 0px #448615;
+}
+
+.r-option a.verde:hover, .r-option a.make-macht:hover {
  background: #5fa032;
  text-decoration: none;
+}
+
+.r-option a.make-edit {
+ background: #88ca5a;
+ padding: 7px 81px;
+ text-shadow: -1px 1px 0px #6dae40;
+}
+
+.r-option a.make-add {
+ background: #88ca5a;
+ padding: 7px 71px;
+ text-shadow: -1px 1px 0px #6dae40;
+}
+
+.r-option a.make-edit:hover, .r-option a.make-add:hover {
+ background: #6dae40;
+ text-decoration: none;
+ text-shadow: -1px 1px 0px #448615;
 }
 
 .head-right {
@@ -597,6 +685,21 @@ color: #fff;
 
 .desafio-fast {
  background: url(img/sprite-icow.png) no-repeat -0px -80px;
+}
+
+/* jugadores */
+
+.player-admin-list-right {
+ margin: 15px 0 0 20px;
+}
+
+.player-list-right {
+ margin: 5px 0 0 20px;
+}
+
+.player-list-right li, .player-admin-list-right li{
+ float: left;
+ margin: 5px 5px 0 0;
 }
 
 /* equipos */
