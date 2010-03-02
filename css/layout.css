@@ -474,12 +474,12 @@ color: #fff;
 
 /* notificaciones */
 
-.partidos, .invitaciones, .desafios, .jugadores, .comentarios  {
+.partidos, .invitaciones, .desafios, .jugadores, .comentarios, .solicitudes  {
  border-bottom: 1px dashed #ececec;
  padding: 10px 0;
 }
 
-.partidos:hover, .invitaciones:hover, .desafios:hover, .jugadores:hover, .comentarios:hover  {
+.partidos:hover, .invitaciones:hover, .desafios:hover, .jugadores:hover, .comentarios:hover, .solicitudes:hover  {
  background: #f9f9f9;
 }
 
@@ -513,7 +513,7 @@ color: #fff;
  padding-top: 20px;
 }
 
-.partidos:hover .time, .invitaciones:hover .time, .desafios:hover .time, .jugadores:hover .time, .comentarios:hover .time {
+.partidos:hover .time, .invitaciones:hover .time, .desafios:hover .time, .jugadores:hover .time, .comentarios:hover .time, .solicitudes:hover .time {
  color: #6dae40;
 }
 
@@ -749,4 +749,142 @@ text-shadow: #fff  0px 1px 0px;
 .nombre-list-right a:hover {
  color: #448615;
  text-decoration: none;
+}
+
+/* formularios
+-------------------------------------------------------------- */
+
+/* head state */
+
+
+#form-state {
+ margin-top: 40px;
+}
+
+#form-state li {
+ float: left;
+ color: #464646;
+ margin-right: 10px;
+ font-size: 1.8em;
+ text-shadow: #fff 0px 1px 0px;
+}
+
+#form-state img {
+ margin-top: 4px;
+}
+
+/* perfil */
+
+#perfil {
+ background: #fff;
+ border: 1px solid #dbdada;
+ margin-top: 15px;
+ min-height: 300px;
+}
+
+.form {
+ margin: 40px;
+}
+
+#tab-form {
+ margin-top: 15px;
+}
+
+#tab-form li{
+ background: #b3cdcc;
+ margin: 0px 30px 15px 0px;
+ -moz-border-radius:5px;
+ -webkit-border-radius:5px;
+
+}
+
+#tab-form li a {
+ font-size: 1.1em;
+ font-weight: bold;
+ color: #fff;
+ margin-left: 8px;
+ line-height: 2;
+ display: block;
+}
+
+#tab-form li a:hover {
+ text-decoration: none;
+}
+
+#tab-form li:hover {
+ background: #88CA5A;
+}
+
+
+#tab-form li.tab-form-active {
+ background: #6dae40;
+}
+
+/* setting para los form */
+
+
+.label-form {
+ display: inline;
+ font-size: 1.2em;
+ margin-right: 50px;
+ font-weight: 300;
+ color: #53534d;
+}
+
+.input-form input, .input-form select {
+ border: 2px solid #ddd;
+ color: #53534d;
+ padding: 5px;
+ width: 250px;
+ -moz-border-radius:5px;
+ -webkit-border-radius:5px;
+}
+
+.input-form select {
+ width: 180px;
+}
+
+.tip-form, .tip-form-check, .tip-form-error {
+ font-size: 1em;
+ margin-bottom: 20px;
+ margin-top: 3px;
+ color: #8d8d84;
+}
+
+.tip-form-check {
+ color: #6dae40;
+}
+
+.tip-form-error {
+ color: #dd362e;
+}
+
+/* equipos */
+
+#perfil-equipos{
+ margin: 40px 50px;
+}
+
+.pel-nombre {
+ color: #53534d;
+ font-size: 1.4em;
+ line-height: 1.2;
+}
+
+.pel-player {
+ color: #8d8d84;
+}
+
+.perfil-equipos-loop a:hover {
+ color: #dd362e;
+ text-decoration: none;
+}
+
+.perfil-equipos-loop {
+ border-bottom: 1px dashed #ececec;
+ padding: 5px 8px;
+}
+
+.perfil-equipos-loop:hover {
+ background: #ececec;
 }
