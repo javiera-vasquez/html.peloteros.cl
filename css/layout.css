@@ -758,7 +758,7 @@ text-shadow: #fff  0px 1px 0px;
 
 
 #form-state {
- margin-top: 40px;
+ margin: 30px 0 0 30px;
 }
 
 #form-state li {
@@ -774,20 +774,19 @@ text-shadow: #fff  0px 1px 0px;
 }
 
 /* perfil */
-
-#perfil {
+#layout-2 {
  background: #fff;
  border: 1px solid #dbdada;
- margin-top: 15px;
- min-height: 300px;
+ margin-top: 35px;
+ min-height: 500px;
 }
 
 .form {
- margin: 40px;
+ margin: 30px 20px;
 }
 
 #tab-form {
- margin-top: 15px;
+ margin:30px 0 0 30px;
 }
 
 #tab-form li{
@@ -862,7 +861,7 @@ text-shadow: #fff  0px 1px 0px;
 /* equipos */
 
 #perfil-equipos{
- margin: 40px 50px;
+ margin: 30px 40px;
 }
 
 .pel-nombre {
@@ -888,3 +887,12 @@ text-shadow: #fff  0px 1px 0px;
 .perfil-equipos-loop:hover {
  background: #ececec;
 }
+
+/* li team + make team + make partido
+-------------------------------------------------------------- */
+
+/* layout */
+
+
+
+
