@@ -284,6 +284,10 @@ color: #fff;
  margin: 20px 10px 5px 20px;
 }
 
+.titles-sec-2 {
+ margin: 35px 35px 20px 40px;
+}
+
 /* partidos 
 -------------------------------------------------------------- */
 
@@ -463,6 +467,15 @@ color: #fff;
 .tabs-sec li a.tabs-sec-active {
  background-color: #6dae40;
  color: #fff;
+}
+
+.tabs-sec li a.team-li-make {
+ color: #fff;
+ background-color: #80ca4c;
+}
+
+.tabs-sec li a.team-li-make:hover {
+background-color: #6dae40;
 }
 
 /* info update + invitaciones
@@ -709,6 +722,17 @@ text-shadow: #fff  0px 1px 0px;
  margin-left: 20px;
 }
 
+#equipos-mod-2 {
+ margin-top: 30px;
+ margin-left: 0px;
+}
+
+#equipos-mod-2 li h4 {
+ margin-bottom: 15px;
+ margin-left: -3px;
+ font-size: 1.5em;
+}
+
 .equipos-list {
  width: 265px;
  height: 40px;
@@ -914,7 +938,7 @@ text-shadow: #fff  0px 1px 0px;
 }
 
 .thumb-li img {
- padding-left: 15px;
+ margin-left: 15px;
 }
 
 .index-content-li {
@@ -937,7 +961,7 @@ text-shadow: #fff  0px 1px 0px;
 
 .li-prox-partido, .li-mensajes, .li-jugadores {
  font-size: 0.9em;
- line-height: 2;
+ line-height: 2.2;
  padding-left: 20px;
  margin-right: 10px;
  padding-bottom: 1px;
@@ -953,4 +977,18 @@ text-shadow: #fff  0px 1px 0px;
 
 .li-jugadores {
   background: url(img/sprite-icow-t.png) no-repeat -0px -61px;
+}
+
+/* li team drop down */
+
+.btn-config {
+ background: url(img/option.png) no-repeat 0px 0px;
+ height: 28px;
+ width: 33px;
+ margin-top: -5px;
+ margin-right: -30px;
+}
+
+.btn-config:hover {
+ background: url(img/option.png) no-repeat 0px -28px;
 }
