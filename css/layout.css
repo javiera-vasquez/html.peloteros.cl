@@ -9,7 +9,7 @@ body {
 /* Headings
 -------------------------------------------------------------- */
 
-h1,h2,h3,h4,h5,h6 { font-weight: normal; color: #797970;}
+h1,h2,h3,h4,h5,h6 { font-weight: normal; color: #53534D;}
 
 h1 { font-size: 3em; line-height: 1; margin-bottom: 0.5em; }
 h2 { font-size: 2em; margin-bottom: 0.75em; }
@@ -992,3 +992,260 @@ text-shadow: #fff  0px 1px 0px;
 .btn-config:hover {
  background: url(img/option.png) no-repeat 0px -28px;
 }
+
+/* make partido */
+
+#type-macht {
+ background: #6dae40;
+ padding: 40px 60px;;
+ margin: 120px 150px 0 150px;
+ -
+}
+
+#type-macht span{
+ font-size: 1.8em;
+ color: #448615;
+ text-shadow: #88ca5a  0px 1px 0px;
+ margin-left: 35px;
+ line-height: 2;
+}
+
+#type-macht a {
+ font-size: 1.5em;
+ color: #fff;
+ text-shadow: #448615  0px 1px 0px;
+ padding: 7px;
+ margin-left: 15px;
+}
+
+#type-macht a:hover {
+ color: #fff;
+ background: #88ca5a;
+ text-decoration: none;
+}
+
+#estructura-partido {
+margin: 0 30px;
+}
+
+.check-info {
+ font-size: 1.2em;
+ line-height: 2;
+ font-weight: 300;
+ color: #53534d;
+}
+
+#team-for-macht {
+ margin-left: 160px;
+ margin-top: 20px;
+ width: 600px;
+}
+
+#team-for-macht ul li {
+ width: 165px;
+ margin-bottom: 10px;
+ margin-right: 10px;
+ padding: 8px 12px;
+ float: left;
+}
+
+#team-for-macht ul li:hover {
+ background-color: #ececec;
+ -moz-border-radius:3px;
+ -webkit-border-radius:3px;
+}
+
+#team-for-macht ul li img {
+padding-top: 4px;
+}
+
+#team-for-macht ul li span.info-team-for-macht {
+ margin-left: 8px;
+}
+
+#team-for-macht ul li a {
+ font-size: 1.2em;
+ margin-left: 8px;
+ line-height: 1;
+ display: block;
+}
+
+#team-for-macht ul li a:hover {
+ color: #448615;
+ text-decoration: none;
+}
+
+/* modulo de partidos guardados */
+
+#info-macht-save {
+ background: #6dae40;
+ min-height: 100px;
+}
+
+#info-macht-save {
+ padding: 5px 10px;
+ margin: 30px 10px 0 -20px;
+}
+
+#info-macht-save h4 {
+ color: #fff;
+ margin-bottom: 5px;
+ text-shadow: #286c00 0px 1px 0px;
+}
+
+#info-macht-save ul {
+margin-bottom: 10px;
+}
+
+#info-macht-save ul li {
+ padding: 5px 10px;
+ background: #88ca5a;
+ margin-bottom: 10px;
+}
+
+#info-macht-save ul li a {
+ color: #f1f1f1;
+ font-size: 1.2em;
+ text-shadow: #448615 0px 1px 0px;
+}
+
+#info-macht-save ul li a:hover {
+ text-decoration: none;
+ color: #fff;
+}
+
+#info-macht-save ul li span {
+ color: #448615;
+ margin-right: 5px;
+}
+
+/* pub team + user
+-------------------------------------------------------------- */
+
+/* layout */
+
+#intro-pub {
+ background: #ececec;
+ margin: 30px 30px 5px 30px;
+ height: 100px;
+}
+
+#pub-left {
+ margin: 25px 30px 30px 30px;
+}
+
+pub-right {
+}
+
+#intro-pub ol {
+ margin: 10px 0 0 10px;
+}
+
+.thumb-pub {
+ float: left;
+}
+
+.option-pub {
+ float: left;
+ margin-left: 10px;
+}
+
+.option-pub strong {
+ font-size: 2em;
+ color: #6dae40;
+ line-height: 1;
+}
+
+/* gadget */
+
+#gadget-pub ol {
+ margin: 10px 20px 0 0;
+}
+
+#gadget-pub ol li {
+ float: left;
+ margin-left: 15px;
+ text-align: center;
+}
+
+#gadget-pub ol li span {
+ color: #fff;
+ background: #6dae40;
+ padding: 2px 4px;
+ -moz-border-radius:3px;
+ -webkit-border-radius:3px;
+}
+
+#gadget-pub ol li strong {
+ color: #6dae40;
+ font-size: 3em;
+}
+
+/* table info */
+
+.def-pub {
+ font-size: 1.2em;
+ color: #6dae40;
+ font-weight: 200;
+ width: 150px;
+ line-height: 1.2;
+ display: inline-table;
+}
+
+.info-pub p {
+ font-size: 1.2em;
+ margin-bottom: 15px;
+ font-weight: 300;
+ color: #797970;
+ line-height: 1.2;
+}
+
+/* action sprite */
+
+#sprite-action {
+ margin-top: 6px;
+}
+
+#sprite-action li{
+ float: left;
+}
+
+.action-add, .action-mail, .action-macht {
+ height: 30px;
+ width: 32px;
+ margin-right: 10px;
+}
+
+.action-edit {
+ background: url(img/sprite-actions.png) no-repeat 0px 0px;
+}
+
+.action-edit:hover {
+ background: url(img/sprite-actions.png) no-repeat 0px -30px;
+}
+
+.action-add {
+ background: url(img/sprite-actions.png) no-repeat -32px 0px;
+}
+
+.action-add:hover {
+ background: url(img/sprite-actions.png) no-repeat -32px -30px;
+}
+
+.action-mail {
+ background: url(img/sprite-actions.png) no-repeat -64px 0px;
+}
+
+.action-mail:hover {
+ background: url(img/sprite-actions.png) no-repeat -64px -30px;
+}
+
+.action-macht {
+ background: url(img/sprite-actions.png) no-repeat -96px 0px;
+}
+
+.action-macht:hover {
+ background: url(img/sprite-actions.png) no-repeat -96px -30px;
+}
+
+
