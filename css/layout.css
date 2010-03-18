@@ -853,7 +853,7 @@ text-shadow: #fff  0px 1px 0px;
  color: #53534d;
 }
 
-.input-form input, .input-form select {
+.input-form input, .input-form select, .input-form textarea  {
  border: 2px solid #ddd;
  color: #53534d;
  padding: 5px;
@@ -1117,6 +1117,45 @@ margin-bottom: 10px;
 #info-macht-save ul li span {
  color: #448615;
  margin-right: 5px;
+}
+
+/* make team */
+
+#step-indicator {
+  margin: 60px 230px 20px 150px;
+}
+
+#step-indicator p {
+ margin-top: 10px;
+ font-size: 1em;
+}
+
+#step-indicator ol li {
+ float: left;
+ margin-right: 40px;
+ padding: 18px 0 20px 10px;
+ background: url(img/sprite-step.png) no-repeat 0px -40px;
+ font-size: 1.5em;
+ line-height: 0;
+ color: #d7d7d7;
+ }
+
+#step-indicator ol li span {
+ font-weight: bold;
+ color: #fff;
+ font-size: 1.8em;
+ line-height: 0;
+ display: block;
+}
+
+#step-indicator ol li strong {
+ margin-left: 35px;
+ display: block;
+}
+
+#step-indicator ol li.step-active {
+ color: #53534D;
+ background: url(img/sprite-step.png) no-repeat 0px -0px;
 }
 
 /* pub team + user
