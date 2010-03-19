@@ -49,6 +49,8 @@ li { list-style: none; }
   background: url(src/grid.png);
 }
 
+.right { float: right; }
+.left { float: left; }
 
 /* Columns
 -------------------------------------------------------------- */

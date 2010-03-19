@@ -55,9 +55,6 @@ pre,code,tt { font: 1em 'andale mono', 'lucida console', monospace; line-height:
 /* Mix elements
 -------------------------------------------------------------- */
 
-.right { float: right; }
-.left { float: left; }
- 
 .round-left {
 	-moz-border-radius-topleft:5px;
 	-moz-border-radius-bottomleft:5px;
@@ -1286,5 +1283,7 @@ pub-right {
 .action-macht:hover {
  background: url(img/sprite-actions.png) no-repeat -96px -30px;
 }
+
+
 
 
